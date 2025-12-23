@@ -1,0 +1,38 @@
+@font-face {
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+    font-family: inter;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: inter;
+    color: hsl(0, 0%, 100%);
+}
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+}
+img{
+    width: 20%;
+    border-radius: 50px;
+}
+h2{
+    font-weight: 700;
+}
+#place{
+    color:  hsl(75, 94%, 57%);
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#work{
+    color: hsl(0, 0%, 70%);
+    font-weight: 400;
+    margin-top: 20px;
+}
